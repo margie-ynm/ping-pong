@@ -1,7 +1,9 @@
 //business logic
 var list = [];
 var pingPong = function(number) {
-  for (var index = 1; index < number; index += 1) {
+  debugger;
+  list = [];
+  for (var index = 1; index <= number; index += 1) {
     if (index % 15 === 0) {
       list.push("ping-pong");
     } else if (index % 3 === 0) {
@@ -20,11 +22,13 @@ var pingPong = function(number) {
 $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
+    $("ul").empty();
+
     var userInput = parseInt($(input).val());
     var result = pingPong(userInput);
 
-    $("ul").append("<li>" + result + "<li>")
-
+    list.forEach(function(number) {
+      $("ul").append("<li>" + number + "</li>")
+    });
   });
-
 });
