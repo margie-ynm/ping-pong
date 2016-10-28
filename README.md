@@ -1,6 +1,6 @@
 # _Ping Pong_
 
-#### _Web application displaying a certain range of numbers, while displaying "ping-pong" for certain numbers, 28 October 2016_
+#### _Web application displaying a certain range of numbers while displaying "ping-pong" for certain numbers, 28 Oct 2016_
 
 #### By _**Margie Nevarez**_
 
