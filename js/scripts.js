@@ -20,6 +20,7 @@ var pingPong = function(number) {
 
 //user-interface
 $(document).ready(function() {
+  debugger;
   $("form").submit(function(event) {
     event.preventDefault();
     $("ul").empty();

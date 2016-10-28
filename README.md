@@ -4,6 +4,8 @@
 
 #### By _**Margie Nevarez**_
 
+#### To view on gh-pages click here: [margie.ynm](https://margie-ynm.github.io/ping-pong)
+
 ## Description
 
 _This is a web application that will take a number from user and output a range of numbers from 1 to chosen number with the following exceptions:_
@@ -30,7 +32,7 @@ _Input example: 1-10_
 _Output example: 1, 2, ping, 4, pong, ping, 7, 8, pong, 10_
 * _Only accepts numbers _
 _Input example: words_
-_Output example: false_
+_Output example: no result_
 
 ## Setup/Installation Requirements
 
