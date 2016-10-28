@@ -16,23 +16,23 @@ _This is a web application that will take a number from user and output a range 
 ## Specifications
 
 * _It can count up to provided number_
-_Input example: 4_
-_Output example: [1, 2, 3, 4]_
+* _Input example: 4_
+* _Output example: [1, 2, 3, 4]_
 * _Go through each number and determine if divisible by 15_
-_Input example: 30_
-_Output example: true_
+* _Input example: 30_
+* _Output example: true_
 * _Go through each number and determine if divisible by 3_
-_Input example: 7_
-_Output example: false_
+* _Input example: 7_
+* _Output example: false_
 * _Go through each number and determine if divisible by 5_
-_Input example: 10_
-_Output example: true_
+* _Input example: 10_
+* _Output example: true_
 * _List number range with results_
-_Input example: 1-10_
-_Output example: 1, 2, ping, 4, pong, ping, 7, 8, pong, 10_
-* _Only accepts numbers _
-_Input example: words_
-_Output example: no result_
+* _Input example: 1-10_
+* _Output example: 1, 2, ping, 4, pong, ping, 7, 8, pong, 10_
+* _Only accepts numbers_
+* _Input example: words_
+* _Output example: no result_
 
 ## Setup/Installation Requirements
 
