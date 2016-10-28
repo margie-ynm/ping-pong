@@ -1,46 +1,51 @@
-# _{Application Name}_
+# _Ping Pong_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Web application displaying a certain range of numbers, while displaying "ping-pong" for certain numbers, 28 October 2016_
 
-#### By _**{List of contributors}**_
+#### By _**Margie Nevarez**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This is a web application that will take a number from user and output a range of numbers from 1 to chosen number with the following exceptions:_
+* _Numbers divisible by 3 are replaced with "ping_
+* _Numbers divisible by 5 are replaced with "pong"_
+* _Numbers divisible by 15 are replaced with "ping-pong"_
 
 ## Specifications
 
-* _It only accepts integers_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
+* _It can count up to provided number_
+_Input example: 4_
+_Output example: [1, 2, 3, 4]_
+* _Go through each number and determine if divisible by 15_
+_Input example: 30_
+_Output example: true_
+* _Go through each number and determine if divisible by 3_
+_Input example: 7_
+_Output example: false_
+* _Go through each number and determine if divisible by 5_
+_Input example: 10_
+_Output example: true_
+* _List number range with results_
+_Input example: 1-10_
+_Output example: 1, 2, ping, 4, pong, ping, 7, 8, pong, 10_
+* _Only accepts numbers _
+_Input example: words_
+_Output example: false_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
-
-## Known Bugs
-
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+* _Code editor_
+* _Modern web browser_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Github for Margie Nevarez: margie-ynm_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_HTML/CSS/JavaScript_
+_In addition, styled with Bootstrap and made interactive with jQuery_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2016 **_Margie Nevarez_**
